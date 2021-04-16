@@ -1,4 +1,5 @@
-on: [push, pull_request, commit]
+on:
+  workflow_dispatch:
 
 jobs:
   main:
